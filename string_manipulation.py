@@ -10,3 +10,4 @@ print "Your full name is : "+ full_name
 
 print last_name[0:4] # prints Assu
 print first_name[0] # prints M
+print "My first name is {} and last name is {}".format(first_name,last_name) // # interpolation
