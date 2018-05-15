@@ -1,5 +1,0 @@
-Name : Alan Dryce
-Age : 24
-Department : Information Technology
-Position : Software Developer
-Salary : 110K/ Year
