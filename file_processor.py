@@ -1,7 +1,6 @@
 
 import os
 
-
 def main():
     try:
         file_one = open("user_info.txt","r")
