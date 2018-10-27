@@ -1,4 +1,14 @@
+"""
+Important methods: 
 
+open(text_file) -> opens a textfile
+close() - closes a text file
+readline() - reads one line
+readlines() - reads multiple lines
+linecach.getline(text_file, line_of_textfile) = gets a line from the text file given the number
+string.split() = split sentence into words
+
+"""
 import os
 
 def main():
