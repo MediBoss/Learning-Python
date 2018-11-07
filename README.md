@@ -25,3 +25,6 @@
 * Run checkers (pylint, Flake8, pyflake,etc...) 
 * Fix low hanging fruits - code style and conventions 
 * Perform final check using the tools above
+
+
+## Testability
