@@ -31,6 +31,12 @@ After taking my coding challenge for the 2019 Software Engineering Intership wit
 
 ### Strings
 
+
+
+
+
+### Lists
+
 1. Slicing
 
 You can slice elements with [start:end] operator :
@@ -48,11 +54,6 @@ list_one = [1,2,3,4,5,6,7,8,9,10]
     backward_list = list_one[::-1]
 
 ```
-
-
-
-
-### Lists
 
 
 
