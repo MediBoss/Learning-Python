@@ -14,11 +14,11 @@ After taking my coding challenge for the 2019 Software Engineering Intership wit
 
 ## Table of Contents
 
-  ..* Loops
-..* Strings
-..* Lists
-..* Tuples
-..* Dictionaries
+* Loops
+* Strings
+* Lists
+* Tuples
+* Dictionaries
 
 
 
