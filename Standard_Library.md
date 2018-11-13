@@ -15,6 +15,7 @@ After taking my coding challenge for the 2019 Software Engineering Intership wit
 ## Table of Contents
 
 * Loops
+* Arithmetics
 * Strings
 * Lists
 * Tuples
@@ -25,6 +26,10 @@ After taking my coding challenge for the 2019 Software Engineering Intership wit
 
 ### Loops
 
+
+
+
+### Arithmetics
 
 
 
