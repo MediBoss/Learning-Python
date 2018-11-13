@@ -36,6 +36,30 @@ After taking my coding challenge for the 2019 Software Engineering Intership wit
 
 ### Strings
 
+1. Replace
+
+You can use the str.replace(old_value, new_value) method to replace the occurence of one string to another.
+
+You can slice elements with [start:end] operator :
+```python
+
+    str = 'Medi Assumani'
+    
+    new_str = str.replace('Assumani', 'Boss')
+    
+```
+
+2. Join
+
+The join function is a more flexible way for concatenating string. With join function, you can add any character into the string.
+
+```python
+
+str = 'Python is very flexible. It is also good to use python for Data Science.'
+char = "🐍"
+print(char.join("python")) # will put 🐍 everytime after python.
+```
+
 
 
 
