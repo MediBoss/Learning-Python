@@ -20,6 +20,7 @@ After taking my coding challenge for the 2019 Software Engineering Intership wit
 * Lists
 * Tuples
 * Dictionaries
+* Sets
 
 
 
@@ -60,7 +61,7 @@ char = "🐍"
 print(char.join("python")) # will put 🐍 everytime after python.
 ```
 
-2. Split
+3. Split
 
 The split function breaks up a string into a list of words given a specific character.
 
@@ -100,5 +101,9 @@ list_one = [1,2,3,4,5,6,7,8,9,10]
 
 
 ### Dictionaries
+
+
+
+### Sets
 
 
