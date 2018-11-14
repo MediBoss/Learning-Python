@@ -83,6 +83,8 @@ str.count("like") # returns 3 because like appears three times in the string
 
 ```
 
+5. Find & Rfind
+
 ### Lists
 
 1. Slicing
