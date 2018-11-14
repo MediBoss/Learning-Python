@@ -60,7 +60,16 @@ char = "🐍"
 print(char.join("python")) # will put 🐍 everytime after python.
 ```
 
+2. Split
 
+The split function breaks up a string into a list of words given a specific character.
+
+```python
+
+str = "I dont want to frow up"
+str.split(" ") # will split the string each time it sees a space
+['I', 'dont', 'want', 'to', 'frow', 'up']
+```
 
 
 
