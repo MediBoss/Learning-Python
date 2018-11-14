@@ -79,7 +79,7 @@ The count(element) method takes in an element and returns its occurences in the 
 ```python
 
 str = "I ate like for times like i was like you know like"
-str.count("like") # returns 3 because 3 appears three times in the string
+str.count("like") # returns 3 because like appears three times in the string
 
 ```
 
