@@ -72,7 +72,16 @@ str.split(" ") # will split the string each time it sees a space
 ['I', 'dont', 'want', 'to', 'frow', 'up']
 ```
 
+4. Count
 
+The count(element) method takes in an element and returns its occurences in the string.
+
+```python
+
+str = "I ate like for times like i was like you know like"
+str.count("like") # returns 3 because 3 appears three times in the string
+
+```
 
 ### Lists
 
@@ -81,16 +90,25 @@ str.split(" ") # will split the string each time it sees a space
 You can slice elements with [start:end] operator :
 ```python
 
+#general syntax
+list2 = list1[start:stop:step]  
+
+
 list_one = [1,2,3,4,5,6,7,8,9,10]
 
-    answer_one = list_one[1:4] # gets elements from 1st to 5th index exclusive
+    # 1. gets elements from 1st to 5th index exclusive
+    answer_one = list_one[1:4] 
     
-   # gets all even numbers from 1st to 8th elementself.
-    # :2 tells python to increment by 2
-    answer_two = list_one[1:7:2]
+    # 2. gets all even numbers from 1st to 8th elementself. :2 tells python to increment by 2
     
-        # get list backward
+      answer_two = list_one[1:7:2]
+    
+    # 3. get list backward
     backward_list = list_one[::-1]
+    
+    # 4. Get all elements but the last
+  
+    exclude_last = list_one[:-1]
 
 ```
 
