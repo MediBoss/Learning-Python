@@ -106,4 +106,12 @@ list_one = [1,2,3,4,5,6,7,8,9,10]
 
 ### Sets
 
+1. add()
+
+2. remove()
+
+3. copy()
+
+4. isSupperSet()
+
 
