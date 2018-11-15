@@ -126,6 +126,8 @@ list_one = [1,2,3,4,5,6,7,8,9,10]
 
 ### Sets
 
+Sets are mutable objects that does not allow duplicates.
+
 1. add()
 
 2. remove()
@@ -133,5 +135,11 @@ list_one = [1,2,3,4,5,6,7,8,9,10]
 3. copy()
 
 4. isSupperSet()
+
+5. clear()
+
+6. difference()
+
+7. isSubset()
 
 
