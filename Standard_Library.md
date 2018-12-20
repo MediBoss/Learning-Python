@@ -58,7 +58,7 @@ The join function is a more flexible way for concatenating string. With join fun
 
 str = 'Python is very flexible. It is also good to use python for Data Science.'
 char = "🐍"
-print(char.join("python")) # will put 🐍 everytime after python.
+print(char.join("python")) # will put python everytime after 🐍 .
 ```
 
 3. Split
@@ -141,5 +141,3 @@ Sets are mutable objects that does not allow duplicates.
 6. difference()
 
 7. isSubset()
-
-
