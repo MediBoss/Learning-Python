@@ -114,6 +114,9 @@ list_one = [1,2,3,4,5,6,7,8,9,10]
 
 ```
 
+2. zip(listOne, listTwo)
+3. expand()
+
 
 
 ### Tuples
