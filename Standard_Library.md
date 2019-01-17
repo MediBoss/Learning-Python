@@ -129,18 +129,35 @@ list_one = [1,2,3,4,5,6,7,8,9,10]
 
 ### Sets
 
-Sets are mutable objects that does not allow duplicates.
+Sets are mutable objects that does not allow duplicates. No <b>indexing</b> or <b>slicing</b>. We can add and remove value from sets(mutable). However, elements in the set themeselves are immutable.
+
+#### Two Types of Sets(object) in Python:
+
+* <light>Set</light> object : mutable 
+* <light>frozenset</light> object: immutable
+
+```python
+
+    a = set() #empy set
+    b = frozenset() #empty frozen set 
+```
+
 
 1. add()
 
 2. remove()
 
-3. copy()
+3. s.difference(t) = get a set of elements in S that arent in t
 
-4. isSupperSet()
+4. s.intersection(t) = get a set of elements that are both found in S and T
 
-5. clear()
+5. s.isdisjoint(t) = returns True or False if S and T have nothing in common.
 
-6. difference()
+6. isSupperSet()
 
-7. isSubset()
+7. difference()
+
+8. isSubset()
+
+
+# Counters
