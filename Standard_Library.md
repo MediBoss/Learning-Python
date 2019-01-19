@@ -24,15 +24,7 @@ After taking my coding challenge for the 2019 Software Engineering Intership wit
 
 
 
-
 ### Loops
-
-
-
-
-### Arithmetics
-
-
 
 
 ### Strings
@@ -170,3 +162,4 @@ from collections import Counter
     # outputs : Counter({4: 2, 6: 2, 8: 1, 9: 1, 2: 1})
 ```
 
+# Ordered Dictionaries
