@@ -142,7 +142,6 @@ Sets are mutable objects that does not allow duplicates. No <b>indexing</b> or <
     b = frozenset() #empty frozen set 
 ```
 
-
 1. add()
 
 2. remove()
@@ -153,11 +152,21 @@ Sets are mutable objects that does not allow duplicates. No <b>indexing</b> or <
 
 5. s.isdisjoint(t) = returns True or False if S and T have nothing in common.
 
-6. isSupperSet()
-
-7. difference()
-
-8. isSubset()
+6. s.union(t) = unifies both sets without duplicates
 
 
 # Counters
+
+Counters are like dictogram, each key is associated with its count or frequency.
+
+
+```python
+from collections import Counter
+
+    a = a = [2,4,6,4,8,6,9]
+    c = Counter(a)
+    
+    print(c)
+    # outputs : Counter({4: 2, 6: 2, 8: 1, 9: 1, 2: 1})
+```
+
