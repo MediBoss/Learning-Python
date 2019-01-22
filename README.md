@@ -147,10 +147,9 @@ Sets are mutable objects that does not allow duplicates. No <b>indexing</b> or <
 6. s.union(t) = unifies both sets without duplicates
 
 
-# Counters
+### OrderedDict
 
-Counters are like dictogram, each key is associated with its count or frequency.
-
+OrderedDict are dictionaries subclass that keeps track of the inserted keys.
 
 ```python
 from collections import Counter
@@ -187,4 +186,17 @@ This is an Ordered Dict:
 ('b', 2)
 ('c', 3)
 ('d', 4)
+```
+
+
+### Lambda Funtions
+
+Lambda are anonymous functions used for powerful expressions
+
+```python
+    lambda arguments: expression
+    
+    cube_root = lambda x: x*x*x
+    list_one = 1,2,3,4,5,6,7
+    even_numbers = list(filter(lambda x: (x%2 = 0), list_one))
 ```
