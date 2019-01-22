@@ -155,11 +155,36 @@ Counters are like dictogram, each key is associated with its count or frequency.
 ```python
 from collections import Counter
 
-    a = a = [2,4,6,4,8,6,9]
-    c = Counter(a)
-    
-    print(c)
-    # outputs : Counter({4: 2, 6: 2, 8: 1, 9: 1, 2: 1})
-```
+  
+print("This is a Dict:\n") 
+d = {} 
+d['a'] = 1
+d['b'] = 2
+d['c'] = 3
+d['d'] = 4
+  
+for key, value in d.items(): 
+    print(key, value) 
+  
+print("\nThis is an Ordered Dict:\n") 
+od = OrderedDict() 
+od['a'] = 1
+od['b'] = 2
+od['c'] = 3
+od['d'] = 4
+  
+for key, value in od.items(): 
+    print(key, value) 
 
-# Ordered Dictionaries
+This is a Dict:
+('a', 1)
+('c', 3)
+('b', 2)
+('d', 4)
+
+This is an Ordered Dict:
+('a', 1)
+('b', 2)
+('c', 3)
+('d', 4)
+```
