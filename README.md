@@ -9,8 +9,6 @@ This markdown contains a list of great standard libary, built in functions that 
 
 ## Table of Contents
 
-* Loops
-* Arithmetics
 * Strings
 * Lists
 * Tuples
@@ -18,10 +16,6 @@ This markdown contains a list of great standard libary, built in functions that 
 * Sets
 * OrderedDict
 * Lambda & Higher Order Funtions
-
-
-### Loops
-
 
 ### Strings
 
