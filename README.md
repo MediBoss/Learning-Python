@@ -7,11 +7,6 @@
 This markdown contains a list of great standard libary, built in functions that can be used during coding challenges, classes projects, and white board coding to boost perfomance, limit lines of codes, and give a more pythonic syntax.
 
 
-## Why
-
-After taking my coding challenge for the 2019 Software Engineering Intership with JP Morgan, I realisezd that if I will be using python for coding challenges and plan on succeeding, I must know it and its tricks like the back of my hand.
-
-
 ## Table of Contents
 
 * Loops
@@ -21,7 +16,8 @@ After taking my coding challenge for the 2019 Software Engineering Intership wit
 * Tuples
 * Dictionaries
 * Sets
-
+* OrderedDict
+* Lambda & Higher Order Funtions
 
 
 ### Loops
@@ -108,6 +104,17 @@ list_one = [1,2,3,4,5,6,7,8,9,10]
 
 2. zip(listOne, listTwo)
 
+```python
+
+    ''' zip funtion combines two iterables (list, set) into one.'''
+    
+    student_names = ["Lori", "Josh", "Marc"]
+    student_scores = [83,98,75]
+    
+    mapped = zip(student_names, student_scores)
+    print(mapped) # [('Lori', 83), ('Josh', 98), ('Marc', 75)]
+```
+
 3. expand()
 
 
@@ -190,13 +197,12 @@ This is an Ordered Dict:
 ```
 
 
-### Lambda Funtions
+### Lambda & Higher Order Functions
 
 Lambda are anonymous functions used for short and powerful computation
 
 ```python
     
-    # 
     lambda arguments: expression
     
     cube_root = lambda x: x*x*x
