@@ -107,6 +107,7 @@ list_one = [1,2,3,4,5,6,7,8,9,10]
 ```
 
 2. zip(listOne, listTwo)
+
 3. expand()
 
 
@@ -191,12 +192,17 @@ This is an Ordered Dict:
 
 ### Lambda Funtions
 
-Lambda are anonymous functions used for powerful expressions
+Lambda are anonymous functions used for short and powerful computation
 
 ```python
+    
+    # 
     lambda arguments: expression
     
     cube_root = lambda x: x*x*x
     list_one = 1,2,3,4,5,6,7
-    even_numbers = list(filter(lambda x: (x%2 = 0), list_one))
+    
+    even_numbers = list(filter(lambda x: (x%2 ==0), list_one))
+    squared = list(map(lambda x: x**2), list_one)
+    summed = reduce((lambda x,y: x*2), list_one)
 ```
